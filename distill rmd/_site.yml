@@ -1,7 +1,7 @@
 name: "distill rmd"
-title: "distill"
-description: |
-  distill
+title: "Group Project for VAST Challenge 2021"
+description:  | 
+  Group project
 output_dir: "_site"
 navbar:
   right:

@@ -2,20 +2,19 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "Introduction",
+      "description": "For the pupose of VAST Challenge 2021 showcase",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-16T23:14:06+08:00"
+      "last_modified": "2021-06-17T23:53:10+08:00"
     },
     {
       "path": "index.html",
-      "title": "distill",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "Index",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-16T23:14:07+08:00"
+      "last_modified": "2021-06-18T00:17:32+08:00"
     }
   ],
-  "collections": []
+  "collections": ["posts/posts.json"]
 }
