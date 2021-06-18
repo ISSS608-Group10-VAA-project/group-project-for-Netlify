@@ -117,7 +117,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["proposal_files/anchor-4.2.2/anchor.min.js","proposal_files/bowser-1.9.3/bowser.min.js","proposal_files/distill-2.2.21/template.v2.js","proposal_files/header-attrs-2.8/header-attrs.js","proposal_files/jquery-1.11.3/jquery.min.js","proposal_files/popper-2.6.0/popper.min.js","proposal_files/tippy-6.2.7/tippy-bundle.umd.min.js","proposal_files/tippy-6.2.7/tippy-light-border.css","proposal_files/tippy-6.2.7/tippy.css","proposal_files/tippy-6.2.7/tippy.umd.min.js","proposal_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["Figure1.jpg","Figure2.jpg","Figure3.jpg","Figure4.jpg","proposal_files/anchor-4.2.2/anchor.min.js","proposal_files/bowser-1.9.3/bowser.min.js","proposal_files/distill-2.2.21/template.v2.js","proposal_files/header-attrs-2.8/header-attrs.js","proposal_files/jquery-1.11.3/jquery.min.js","proposal_files/popper-2.6.0/popper.min.js","proposal_files/tippy-6.2.7/tippy-bundle.umd.min.js","proposal_files/tippy-6.2.7/tippy-light-border.css","proposal_files/tippy-6.2.7/tippy.css","proposal_files/tippy-6.2.7/tippy.umd.min.js","proposal_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2130,6 +2130,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <li>Graphs will be created to plot the clusters of new articles against their bias scores.</li>
 <li>A dashboard with 2 tiers to visualize the formal relationships and shared goals in the 1st tier and the informal relationships and shared goals in the 2nd tier for GASTech, POK, APA and government</li>
 </ul>
+<p><img src="Figure1.jpg" /> Figure1: relationship between Location and Message to show the location where most messages originate form. Graph was created using JMP Pro and will be recreated in R for the Shiny dashboard.</p>
 <h3 id="mini-challenge-2">4.2 Mini Challenge 2</h3>
 <ul>
 <li>Use the ‘timestamp’ and ‘location’ field of cc_data.csv and loyalty_data.csv to infer the most popular locations(scatter plot ) as well as the daily routine(Polyline in Tableau). Then based on the common sense ,we can detect the anomalies of activities: such as it’s not likely the large transactions can happen at the coffee shop.</li>
@@ -2139,12 +2140,15 @@ document.addEventListener('DOMContentLoaded', function() {
 </li>
 <li>Using some state of art techniques—social network analysis or graph theory.</li>
 </ul>
+<p><img src="Figure2.jpg" /> Figure2: Location over datetime. Graph was created using JMP Pro and will be recreated in R for the Shiny dashboard.</p>
+<p><img src="Figure3.jpg" /> Figure3: Map of Abila. Further key locations will included in R Shiny dashboard</p>
 <h3 id="mini-challenge-3">4.3 Mini Challenge 3</h3>
 <ul>
 <li>How does differentiating meaningful messages improves the identification of key events?</li>
 <li>Using a Task1 method to classify meaningful event reports and use the events extracted to form a timeline representing the events. Dashboard with options to select events and show the occurrences of the extracted report over time using a time series spark graph. Include the reference to key events in the timeseries to see the correlation with the word count of key terms.<br />
 </li>
-<li>Incorporate Task2 into the timeline allowing users to toggle between the different risk levels.</li>
+<li>Incorporate Task2 into the timeline allowing users to toggle between the different risk levels.<br />
+<img src="Figure4.jpg" /> Figure4: Sentiment analysis and Word Cloud. R Shiny dashboard to allow for selection of sentiment and associate words.</li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
