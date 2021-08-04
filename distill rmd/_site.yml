@@ -4,7 +4,7 @@ description:  |
   Group project
 output_dir: "_site"
 navbar:
-  search: false
+  search: true
   left:
     - text: 'Proposal'
       href: posts/Proposal/index.html
@@ -19,4 +19,6 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - icon: fab fa-github fa-lg
+      href: https://github.com/ISSS608-Group10-VAA-project/group-project-for-Netlify
 output: distill::distill_article
