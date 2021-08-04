@@ -1,0 +1,20 @@
+---
+title: "user_guide"
+description: |
+  A short description of the post.
+author:
+  - name: Jessica TAN,Suling LEE,Nian LIU
+    url: {}
+date: 08-04-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+

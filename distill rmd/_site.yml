@@ -4,6 +4,16 @@ description:  |
   Group project
 output_dir: "_site"
 navbar:
+  search: false
+  left:
+    - text: 'Proposal'
+      href: posts/Proposal/index.html
+    - text: 'User Guide'
+      href: posts/2021-08-04-userguide/index.html
+    - text: 'poster'
+      href: posts/2021-08-04-poster/index.html
+    - text: 'Report'
+      href: posts/2021-08-04-report/index.html      
   right:
     - text: "Home"
       href: index.html
