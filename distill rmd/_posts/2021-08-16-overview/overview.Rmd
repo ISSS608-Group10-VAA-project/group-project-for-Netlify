@@ -1,0 +1,43 @@
+---
+title: "Overview"
+description: |
+  This page gives a brief introduction of whole project
+author:
+  - name: Jessica TAN,Suling LEE,Nian LIU
+    url: {}
+date: 08-15-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE }
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+## 1. ABSTRACT
+
+This study covers the information and events of the Kronos Incident of the VAST2021 Challenge related to the missing GASTech employees. In face of the avalanche of data related to the incident, it would be necessary to use the best in class methods to efficiently decipher the data and detect the links in such time-sensitive analysis.  For this purpose, a R-Shiny app is developed for interactive visualisation of the communication amongst GASTech employees across email and other online mediums.  The network visualisation is presented in 3 parts: (i) email communication network, (ii) network of Credit Card Spending Locations; and (iii) Microblog Network Visualisation.
+
+Through the employment network visualisation, the study is able to gain meaningful insights into the communication and activities of GASTech employees in the days leading up to the said disappearance of GASTech employees and their subsequent rescue by the police.   
+
+## 2. MOTIVATION  
+
+Using interactive R-Studio interactive network visualisation packages, this study aims to showcase the use of network visualization to organise the information from various mediums such as emails, social media tweets, micro-blog and credit card transaction data into interactive and user-friendly formats for easy deciphering of the data that can enable the user to trace the links to the missing employees. The study also attempts to provide a more software-reliant approach based on R-tools for network detection and visualisation compared to the mostly Excel and Visio studio-based processes used in the VAST2014 Challenge on the same subject.
+
+## 3. DESIGN FRAMEWORK
+
+The application is a R-Shiny app designed for interactive network visualisation of the activities of GASTech employees and local communities related to the disappearance of some GASTech employees.  The network visualisation is presented in 3 parts:
+
+* Email communication network of GASTech employees;
+* Network of Credit Card Spending Locations;
+* Microblog Network Visualisation.
+
+By accessing communication in GASTech  email and microblog text messages as well as tracing the transaction activities and locations of key individuals, the user would be able to detect meaningful patterns and important insights to assist with uncovering the causes leading to the disappearance of the GASTech employees. 
+
+
+
+
+

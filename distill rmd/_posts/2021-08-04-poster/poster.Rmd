@@ -1,11 +1,11 @@
 ---
 title: "Poster"
 description: |
-  This page show our project visual artifact
+  This page show our project visual artifact  
 author:
   - name: Jessica TAN,Suling LEE,Nian LIU
     url: {}  
-date: 08-04-2021
+date: 08-15-2021
 output:
   distill::distill_article:
     self_contained: false

@@ -8,7 +8,9 @@ navbar:
   left:
     - text: 'Proposal'
       href: posts/Proposal/index.html
-    - text: 'poster'
+    - text: 'Overview'
+      href: posts/2021-08-16-overview/index.html
+    - text: 'Poster'
       href: posts/2021-08-04-poster/index.html
     - text: 'Report'
       href: posts/2021-08-04-report/index.html      
