@@ -1,7 +1,7 @@
 ---
-title: "report"
+title: "Report"
 description: |
-  A short description of the post.
+  This page show our project written report
 author:
   - name: Jessica TAN,Suling LEE,Nian LIU
     url: {}
@@ -12,12 +12,9 @@ output:
 ---
 
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE }
 knitr::opts_chunk$set(echo = FALSE)
+
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
-
-Learn more about using Distill at <https://rstudio.github.io/distill>.
-
-
+Please click [Paper](paper.pdf)

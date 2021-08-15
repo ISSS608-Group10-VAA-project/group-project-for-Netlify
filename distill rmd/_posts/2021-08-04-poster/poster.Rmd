@@ -1,20 +1,16 @@
 ---
-title: "poster"
+title: "Poster"
 description: |
-  A short description of the post.
-author:
-  - name: Jessica TAN,Suling LEE,Nian LIU
-    url: {}
+  This page show our project visual artifact
 date: 08-04-2021
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-
-```{r setup, include=FALSE}
+```{r setup, include=FALSE }
 knitr::opts_chunk$set(echo = FALSE)
+
 ```
 
-
-
+Please click [poster](poster.pdf)
